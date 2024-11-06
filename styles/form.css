@@ -1,0 +1,46 @@
+.form {
+  display: grid;
+  gap: var(--gap-lg);
+  width: 100%;
+}
+
+.form__control {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.form__label {
+  font-size: 1.4rem;
+  color: #777;
+}
+
+.form__input {
+  height: 4rem;
+  outline: none;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  color: var(--dark);
+  font-family: var(--text-font-family);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: var(--default-transition);
+}
+
+.form__textarea {
+  outline: none;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  color: var(--dark);
+  font-family: var(--text-font-family);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: var(--default-transition);
+  resize: none;
+}
+
+.form__input:active,
+.form__input:focus,
+.form__textarea:active,
+.form__textarea:focus {
+  border-color: var(--primary);
+}

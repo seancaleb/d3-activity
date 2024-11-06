@@ -1,0 +1,1375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts  -->
+    <!-- Inter  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="shortcut icon" type="image/jpg" href="assets/main_img.png" />
+    <title>Food | Landing Page</title>
+  </head>
+  <body>
+    <!-- Header  -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="#home" class="header__logo">
+            <img src="assets/logo.png" alt="food logo" />
+          </a>
+
+          <nav class="nav">
+            <ul class="nav__list">
+              <li><a href="#home" class="nav__link">Home</a></li>
+              <li><a href="#about" class="nav__link">About</a></li>
+              <li><a href="#menu" class="nav__link">Menu</a></li>
+              <li><a href="#gallery" class="nav__link">Gallery</a></li>
+              <li><a href="#review" class="nav__link">Review</a></li>
+              <li><a href="#contact" class="nav__link">Order</a></li>
+            </ul>
+          </nav>
+
+          <div class="header__nav-right">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="header__svg">
+              <path
+                fill="currentColor"
+                d="M9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16m0-2q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"
+              />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="header__svg">
+              <path
+                fill="currentColor"
+                d="M12.001 4.529a6 6 0 0 1 8.242.228a6 6 0 0 1 .236 8.236l-8.48 8.492l-8.478-8.492a6 6 0 0 1 8.48-8.464"
+              />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="header__svg">
+              <path
+                fill="currentColor"
+                d="M7 22q-.825 0-1.412-.587T5 20t.588-1.412T7 18t1.413.588T9 20t-.587 1.413T7 22m10 0q-.825 0-1.412-.587T15 20t.588-1.412T17 18t1.413.588T19 20t-.587 1.413T17 22M5.2 4h14.75q.575 0 .875.513t.025 1.037l-3.55 6.4q-.275.5-.737.775T15.55 13H8.1L7 15h11q.425 0 .713.288T19 16t-.288.713T18 17H7q-1.125 0-1.7-.987t-.05-1.963L6.6 11.6L3 4H2q-.425 0-.712-.288T1 3t.288-.712T2 2h1.625q.275 0 .525.15t.375.425z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Wrapper  -->
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="section__hero">
+        <div class="hero__wrapper container">
+          <div class="hero__content-wrapper">
+            <h1 class="hero__heading">
+              Get Fresh Food in a <span class="italic is-primary">Easy Way</span>
+            </h1>
+            <p class="hero__text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore hic necessitatibus
+              quo, perferendis quibusdam laborum blanditiis.
+            </p>
+            <a href="#contact" class="btn btn--primary btn-w-svg">
+              Order Now
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-svg" viewBox="0 0 24 24">
+                <path
+                  fill="currentColor"
+                  d="M12.6 12L8.7 8.1q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l4.6 4.6q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.6 4.6q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="hero__img-wrapper">
+            <img src="assets/main_img.png" alt="a tasty hamburger" class="hero__img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section  -->
+      <section id="about" class="section__about">
+        <div class="container">
+          <div class="section__about-wrapper">
+            <div class="about__img-wrapper">
+              <img src="assets/Food-Plate.png" alt="a food plate" class="about__img" />
+            </div>
+            <div class="about__content-wrapper">
+              <h2 class="about__heading">
+                <span class="italic is-primary underline">About</span> Us
+              </h2>
+              <div class="about__subheading">Why choose us?</div>
+              <p class="about__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa saepe quo esse, quia,
+                aperiam at laborum sed tempore perferendis nostrum quae nisi voluptatum deleniti.
+              </p>
+              <p class="about__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore harum voluptates
+                quod.
+              </p>
+              <button class="btn btn--primary">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Menu Section  -->
+      <section id="menu" class="section__menu">
+        <div class="container">
+          <div class="section__menu-wrapper">
+            <h2 class="menu__heading">Our <span class="italic is-primary underline">Menu</span></h2>
+            <div class="menu__grid">
+              <div class="menu__card">
+                <img src="assets/buger.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Burger</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/pasta.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Pasta</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/lasagna.webp" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Lasagna</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/chocolate_Drink.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Drink</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/pizza.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Pizza</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/Hot_dog.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Hotdog</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/juse.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Juse</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/biryani.webp" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Biryani</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/sandwich.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Sandwich</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/Spanchi.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Spanchi</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/chocolate.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Chocolate</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/ice_cream.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Ice Cream</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu__card">
+                <img src="assets/cake.jpg" class="menu__card-img" />
+                <div class="menu__card-content-wrapper">
+                  <div class="menu__card-title-wrapper">
+                    <div class="menu__card-title">Cake</div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="menu__card-review-svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                  <p class="menu__card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas dignissimos
+                    necessitatibus suscipit.
+                  </p>
+                  <div class="menu__card-price">$20.00</div>
+                  <button class="btn btn--outline">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="section__gallery">
+        <div class="container">
+          <div class="section__gallery-wrapper">
+            <h2 class="gallery__heading">
+              Our <span class="italic is-primary underline">Gallery</span>
+            </h2>
+            <div class="gallery__grid">
+              <div class="gallery__img-wrapper">
+                <img src="assets/gallary_1.jpg" class="gallery__img" />
+              </div>
+              <div class="gallery__img-wrapper">
+                <img src="assets/gallary_2.jpg" class="gallery__img" />
+              </div>
+              <div class="gallery__img-wrapper">
+                <img src="assets/gallary_3.jpg" class="gallery__img" />
+              </div>
+              <div class="gallery__img-wrapper">
+                <img src="assets/gallary_4.jpg" class="gallery__img" />
+              </div>
+              <div class="gallery__img-wrapper">
+                <img src="assets/gallary_5.jpg" class="gallery__img" />
+              </div>
+              <div class="gallery__img-wrapper">
+                <img src="assets/gallary_6.jpg" class="gallery__img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Review Section  -->
+      <section id="review" class="section__review">
+        <div class="container">
+          <div class="section__review-wrapper">
+            <h2 class="gallery__heading">
+              Customer <span class="italic is-primary underline">Review</span>
+            </h2>
+            <div class="review__grid">
+              <div class="review__card">
+                <div class="review__card-review-wrapper">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                </div>
+                <p class="review__card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, porro qui nemo,
+                  iure natus mollitia deleniti repellat quibusdam ipsa eum molestias in eligendi.
+                </p>
+
+                <div class="review__card-avatar-wrapper">
+                  <img src="assets/review_1.png" class="review__card-avatar" />
+                  <span class="review__card-name">John Doe</span>
+                </div>
+              </div>
+
+              <div class="review__card">
+                <div class="review__card-review-wrapper">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                </div>
+                <p class="review__card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, porro qui nemo,
+                  iure natus mollitia deleniti repellat quibusdam ipsa eum molestias in eligendi.
+                </p>
+
+                <div class="review__card-avatar-wrapper">
+                  <img src="assets/review_2.png" class="review__card-avatar" />
+                  <span class="review__card-name">John Doe</span>
+                </div>
+              </div>
+
+              <div class="review__card">
+                <div class="review__card-review-wrapper">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                </div>
+                <p class="review__card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, porro qui nemo,
+                  iure natus mollitia deleniti repellat quibusdam ipsa eum molestias in eligendi.
+                </p>
+
+                <div class="review__card-avatar-wrapper">
+                  <img src="assets/review_3.png" class="review__card-avatar" />
+                  <span class="review__card-name">John Doe</span>
+                </div>
+              </div>
+
+              <div class="review__card">
+                <div class="review__card-review-wrapper">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 18.26l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="review__card-review-svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="m12 15.968l4.247 2.377l-.948-4.773l3.573-3.305l-4.833-.573l-2.038-4.419zm0 2.292l-7.053 3.948l1.575-7.928L.588 8.792l8.027-.952L12 .5l3.385 7.34l8.027.952l-5.934 5.488l1.575 7.928z"
+                    />
+                  </svg>
+                </div>
+                <p class="review__card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, porro qui nemo,
+                  iure natus mollitia deleniti repellat quibusdam ipsa eum molestias in eligendi.
+                </p>
+
+                <div class="review__card-avatar-wrapper">
+                  <img src="assets/review_4.png" class="review__card-avatar" />
+                  <span class="review__card-name">John Doe</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section  -->
+      <section id="contact" class="section__contact">
+        <div class="container">
+          <div class="section__contact-wrapper">
+            <div class="contact__img-wrapper">
+              <img src="assets/order_image.png" class="contact__img" />
+            </div>
+
+            <div class="contact__content-wrapper">
+              <h2 class="contact__heading">
+                Leave a <span class="italic is-primary underline">Message</span>
+              </h2>
+              <p class="contact__text">Kindly fill in this form to leave a message.</p>
+
+              <!-- Form  -->
+              <form action="#" class="form">
+                <div class="form__control">
+                  <label for="name" class="form__label">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form__input"
+                    required
+                    placeholder="ex. John Doe"
+                  />
+                </div>
+
+                <div class="form__control">
+                  <label for="email" class="form__label">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form__input"
+                    required
+                    placeholder="johndoe@test.com"
+                  />
+                </div>
+
+                <div class="form__control">
+                  <label for="message" class="form__label">Message</label>
+                  <textarea name="message" id="message" rows="8" class="form__textarea"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn--primary btn-w-svg">
+                  Send Message
+                  <svg xmlns="http://www.w3.org/2000/svg" class="text-svg" viewBox="0 0 24 24">
+                    <path
+                      fill="currentColor"
+                      d="M4.4 19.425q-.5.2-.95-.088T3 18.5V14l8-2l-8-2V5.5q0-.55.45-.837t.95-.088l15.4 6.5q.625.275.625.925t-.625.925z"
+                    />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <p class="footer__copyright">Copyright Food &copy; 2024. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

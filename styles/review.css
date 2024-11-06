@@ -1,0 +1,74 @@
+.section__review {
+  padding-inline: var(--section-inline);
+  padding-block: var(--section-block);
+  background-color: var(--bg-light-alternative);
+}
+
+.section__review-wrapper {
+  display: grid;
+  gap: var(--gap-2xl);
+}
+
+.review__heading {
+  font-size: var(--h3);
+  font-family: var(--heading-font-family);
+}
+
+.review__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--gap);
+}
+
+.review__card {
+  padding: 2.4rem;
+  border-radius: 4px;
+  background: url("/assets/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: var(--shadow);
+}
+
+.review__card-review-wrapper {
+  margin-bottom: 1.6rem;
+}
+
+.review__card-review-svg {
+  width: 2rem;
+  height: 2rem;
+  color: var(--primary);
+}
+
+.review__card-text {
+  margin-bottom: 2.4rem;
+}
+
+.review__card-avatar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.review__card-avatar {
+  height: 5.6rem;
+  width: 5.6rem;
+  border-radius: 120px;
+  padding: 2px;
+  border: 2px solid var(--primary);
+}
+
+.review__card-name {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 640px) {
+  .review__heading {
+    font-size: var(--h2);
+  }
+
+  .review__grid {
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  }
+}
